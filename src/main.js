@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import 'normalize.css';
+import 'assets/css/reset.css';
 import 'assets/css/border.css';
 import 'assets/icon/iconfont.css';
 import 'swiper/dist/css/swiper.css';

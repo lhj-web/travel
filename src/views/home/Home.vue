@@ -3,6 +3,7 @@
     <home-header />
     <home-swipe :banners="banners" class="swipe"/>
     <home-icons />
+    <home-recommend />
   </div>
 </template>
 
@@ -10,10 +11,16 @@
 
 import HomeHeader from './childComps/HomeHeader.vue';
 import HomeIcons from './childComps/HomeIcons.vue';
+import HomeRecommend from './childComps/HomeRecommend.vue';
 import HomeSwipe from './childComps/HomeSwipe.vue';
 
 export default {
-  components: { HomeHeader, HomeSwipe, HomeIcons },
+  components: {
+    HomeHeader,
+    HomeSwipe,
+    HomeIcons,
+    HomeRecommend,
+  },
   name: 'Home',
   data() {
     return {

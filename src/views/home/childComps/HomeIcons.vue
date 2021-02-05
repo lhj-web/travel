@@ -37,12 +37,12 @@ export default {
   .icon
     width 25%
     img
-      width 25%
+      width 35%
       vertical-align middle
       margin-left 33%
     p
       text-align center
       font-size 14px
-      margin-top 6px
+      margin-top 10px
       ellipsis()
 </style>
