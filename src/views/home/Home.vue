@@ -2,16 +2,18 @@
   <div id="home">
     <home-header />
     <home-swipe :banners="banners" class="swipe"/>
+    <home-icons />
   </div>
 </template>
 
 <script>
 
 import HomeHeader from './childComps/HomeHeader.vue';
+import HomeIcons from './childComps/HomeIcons.vue';
 import HomeSwipe from './childComps/HomeSwipe.vue';
 
 export default {
-  components: { HomeHeader, HomeSwipe },
+  components: { HomeHeader, HomeSwipe, HomeIcons },
   name: 'Home',
   data() {
     return {
